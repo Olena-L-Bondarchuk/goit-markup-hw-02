@@ -57,11 +57,11 @@ body {
   color: var(--accent-color);
 }
 .nav-item {
+  color: #212121;
   font-weight: 500;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.02em;
-  color: #212121;
 }
 
 .contacts-mail {
@@ -71,8 +71,8 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02;
 }
-.contacts-mail :focus,
-.contacts-mail :hover {
+.contacts-mail:focus,
+.contacts-mail:hover {
   color: var(--accent-color);
 }
 
@@ -83,8 +83,8 @@ body {
   line-height: calc(16 / 14);
   letter-spacing: 0.02;
 }
-.contacts-tel :hover,
-.contacts-tel :focus {
+.contacts-tel:hover,
+.contacts-tel:focus {
   color: var(--accent-color);
 }
 
@@ -93,15 +93,18 @@ body {
   background-color: var(--secondary-bgc);
 }
 .hero-title {
+  color: var(--secondary-text-color);
   font-weight: 900;
   font-size: 44px;
   line-height: calc(60 / 44);
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: var(--secondary-text-color);
 }
 .hero-button {
+  color: var(--secondary-text-color);
+  background-color: var(--accent-color);
+  cursor: pointer;
   font-family: inherit;
   font-weight: 700;
   font-size: 16px;
@@ -110,25 +113,22 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: var(--secondary-text-color);
-  background-color: var(--accent-color);
-  cursor: pointer;
 }
 .title-studio {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 36px;
   line-height: calc(42 / 36);
   text-align: center;
-  color: var(--title-text-color);
 }
 
 .preference-title {
+  color: var(--title-text-color);
   font-weight: 700;
   font-size: 14px;
   line-height: calc(16 / 14);
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--title-text-color);
 }
 .preference-text {
   font-size: 14px;
@@ -136,11 +136,11 @@ body {
 }
 
 .team-title {
+  color: var(--title-text-color);
   font-weight: 500;
   font-size: 16px;
   line-height: calc(19 / 16);
   text-align: center;
-  color: var(--title-text-color);
 }
 .team-text {
   font-size: 16px;
@@ -166,14 +166,14 @@ body {
 }
 
 .filters-item {
+  color: var(--title-text-color);
+  background-color: var(--button-bgc);
+  cursor: pointer;
   font-weight: 500;
   font-size: 16px;
   line-height: calc(26 / 16);
   text-align: center;
   border-radius: 4px;
-  background-color: var(--button-bgc);
-  color: var(--title-text-color);
-  cursor: pointer;
 }
 
 .filters-item:hover,
@@ -196,12 +196,12 @@ body {
 
 /* --------------Footer------------ */
 .logo-footer {
+  color: var(--accent-color);
   font-family: 'Raleway', sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: calc(31 / 26);
-  color: var(--accent-color);
   text-decoration: none;
 }
 .logo-footer > span {
@@ -212,10 +212,10 @@ body {
   background-color: var(--secondary-bgc);
 }
 .contacts-footer-address {
+  color: var(--secondary-text-color);
   font-style: normal;
   font-size: 14px;
   line-height: calc(24 / 14);
-  color: var(--secondary-text-color);
 }
 
 .contacts-footer-mail {
@@ -234,7 +234,7 @@ body {
   font-size: 14px;
   line-height: calc(24 / 14);
 }
-.contacts-footer-tel :hover,
-.contacts-footer-tel :focus {
+.contacts-footer-tel:hover,
+.contacts-footer-tel:focus {
   color: var(--accent-color);
 }
