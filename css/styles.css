@@ -114,6 +114,10 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
 }
+.hero-button:hover,
+.hero-button:focus {
+  color: #188ce8;
+}
 .title-studio {
   color: var(--title-text-color);
   font-weight: 700;
